@@ -1,17 +1,17 @@
-#custom_titleize
+# custom_titleize
 A custom method that will not capitalize every word in the string.
-###Method Call
+### Method Call
 ```
 String.titleize(custom,articles)
 ```
-###Parameters
+### Parameters
   - custom == Boolean
     - false (DEFAULT) => default titleize behavior
     - true => custom titleize behavior
   - articles == Array
     - ['a','an','the' ... ]
     
-###Examples
+### Examples
 ```
 'x is a test. a is also an amazing test! will c be the final test?'.titleize(true)
   => "X is a Test. A is Also an Amazing Test! Will C Be the Final Test?" 
